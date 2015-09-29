@@ -1,0 +1,13 @@
+{
+  "configs" : [
+    {
+      "tag_key" : "Billing",
+      "tag_value" : "FOD",
+      "expected_instances" : [
+        {
+            "c3.8xlarge": "20"
+        }
+      ]
+    }
+  ]
+}
