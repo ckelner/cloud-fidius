@@ -9,7 +9,7 @@ what you expect to be running in that environment.
 
 ## Config
 Fidius is built on top of [Boto 3](https://github.com/boto/boto3) which utilizes
-the AWS SDK, and therefore re-uses AWS configuration.  Therefore if you've ever
+the AWS SDK, and therefore re-uses AWS configuration.  Thus if you have ever
 used the AWS CLI tools, you'll likely already have the following configuration
 available to Fidius.
 
@@ -23,6 +23,6 @@ Set up your configuration and credentials in `~/.aws/config` under a new profile
 ```
 
 Then you'll need to set the `AWS_PROFILE` environment variable to equal `YOUR_PROFILE_NAME`
-from the `~/.aws/config` that you want to use.  In this way you specify multiple
+from the `~/.aws/config` that you want to use.  In this way you can specify multiple
 profiles and switch between them easily.  This allows Fidius to be run between multiple
 environments with some ease.
